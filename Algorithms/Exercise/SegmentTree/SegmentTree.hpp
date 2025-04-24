@@ -2,7 +2,7 @@
 //  SegmentTree.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 4/23/25.
+//  Created by J.C. on 4/23/25.
 //
 
 #ifndef SegmentTree_hpp
@@ -215,7 +215,7 @@ class SegTree_Efficient {
     size_t _n;
     std::vector<NodeType> _t;
 
-#define CANNOT_WRAP_AROUND 1;
+//#define CANNOT_WRAP_AROUND 1;
 
     public:
 
@@ -323,7 +323,7 @@ public:
     void update(size_t i, T v) {
         NodeType::leafInit(_t[_n+i], v);
         for (size_t j = (_n+i) >> 1; j > 0; j >>= 1) {
-            NodeType::merge(_t[j], _t[j<<1], _t[j<<1 | 1]);
+            _t[j].mergeFrom(_t[j<<1], _t[j<<1 | 1]);
         }
     }
     
@@ -339,7 +339,6 @@ private:
 
     void buildHelper(const std::vector<T>& arr, size_t L, size_t R, size_t l, size_t r, size_t root) {
         if (l >= R || r <= L) {
-             NodeType::leafInit(_t[root]);
             return;
         }
         if (R - L == 1) {
@@ -348,14 +347,13 @@ private:
             size_t M((L + R) / 2);
             buildHelper(arr, L, M, l, M < r ? M : r, root << 1);
             buildHelper(arr, M, R, l > M ? l : M, r, root << 1 | 1);
-            NodeType::merge(_t[root], _t[root << 1], _t[root << 1 | 1]);
+            _t[root].mergeFrom(_t[root << 1], _t[root << 1 | 1]);
         }
     }
 
     NodeType queryHelper(size_t L, size_t R, size_t l, size_t r, size_t root) {
         NodeType ret;
         if (l >= R || r <= L) {
-             NodeType::leafInit(ret);
             return ret;
         }
         if (l == L && r == R) {
@@ -364,7 +362,7 @@ private:
             size_t M((L + R) / 2);
             NodeType tL = queryHelper(L, M, l, M, root << 1);
             NodeType tR = queryHelper(M, R, M, r, root << 1 | 1);
-            NodeType::mergeNode(ret, tL, tR);
+            ret.mergeFrom(tL, tR);
         }
         return ret;
     }

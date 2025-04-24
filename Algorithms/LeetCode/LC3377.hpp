@@ -2,7 +2,7 @@
 //  LC3377.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 12/24/24.
+//  Created by J.C. on 12/24/24.
 //
 
 #ifndef LC3377_h

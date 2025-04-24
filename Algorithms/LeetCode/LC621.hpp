@@ -2,7 +2,7 @@
 //  LC621.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 8/13/24.
+//  Created by J.C. on 8/13/24.
 //
 
 #ifndef LC621_h

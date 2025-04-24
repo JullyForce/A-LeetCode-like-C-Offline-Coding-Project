@@ -2,7 +2,7 @@
 //  LC3068.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 9/21/24.
+//  Created by J.C. on 9/21/24.
 //
 
 #ifndef LC3068_h

@@ -2,7 +2,7 @@
 //  LC1717.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 10/26/24.
+//  Created by J.C. on 10/26/24.
 //
 
 #ifndef LC1717_h

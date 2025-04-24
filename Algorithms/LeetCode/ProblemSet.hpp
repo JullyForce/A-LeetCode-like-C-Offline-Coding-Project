@@ -2,7 +2,7 @@
 //  ProblemSet.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 6/14/24.
+//  Created by J.C. on 6/14/24.
 //
 
 #ifndef LeetCode_ProblemSet_h

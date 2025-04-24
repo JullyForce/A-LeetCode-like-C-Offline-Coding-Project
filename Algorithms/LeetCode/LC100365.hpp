@@ -2,7 +2,7 @@
 //  LC100365.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 7/20/24.
+//  Created by J.C. on 7/20/24.
 //
 
 #ifndef LC100365_h

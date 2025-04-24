@@ -2,7 +2,7 @@
 //  IntegerEncoding.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 4/20/25.
+//  Created by J.C. on 4/20/25.
 //
 
 #ifndef IntegerEncoding_h

@@ -2,7 +2,7 @@
 //  LC3305.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 9/28/24.
+//  Created by J.C. on 9/28/24.
 //
 
 #ifndef LC3305_h

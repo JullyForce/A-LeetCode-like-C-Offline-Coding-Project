@@ -2,7 +2,7 @@
 //  LC3229.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 7/21/24.
+//  Created by J.C. on 7/21/24.
 //
 
 #ifndef LC3229_h

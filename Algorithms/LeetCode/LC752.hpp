@@ -2,7 +2,7 @@
 //  LC752.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 8/30/24.
+//  Created by J.C. on 8/30/24.
 //
 
 #ifndef LC752_h

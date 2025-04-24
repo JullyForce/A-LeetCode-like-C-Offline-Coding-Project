@@ -2,7 +2,7 @@
 //  LC310.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 9/4/24.
+//  Created by J.C. on 9/4/24.
 //
 
 #ifndef LC310_h

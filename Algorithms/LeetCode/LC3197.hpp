@@ -2,7 +2,7 @@
 //  LC3197.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 6/24/24.
+//  Created by J.C. on 6/24/24.
 //
 
 #ifndef LC3197_h

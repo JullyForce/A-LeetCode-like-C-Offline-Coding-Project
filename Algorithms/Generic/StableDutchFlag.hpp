@@ -2,8 +2,8 @@
 //  StableDutchFlag.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 4/19/25.
-//  For coding test only, using LC naming convention and test harness temporarily
+//  Created by J.C. on 4/19/25.
+//  Coding question:
 //    Give you an array which has n integers, t has both positive and negative integers. Now you need
 //    sort this array in a special way. After that, the negative integers should in the front, and the positive
 //    integers should in the back. Also the relative position should not be changed.

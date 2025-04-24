@@ -2,7 +2,7 @@
 //  LC3265.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 8/24/24.
+//  Created by J.C. on 8/24/24.
 //
 
 #ifndef LC3265_h

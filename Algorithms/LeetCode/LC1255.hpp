@@ -2,7 +2,7 @@
 //  LC1255.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 9/24/24.
+//  Created by J.C. on 9/24/24.
 //
 
 #ifndef LC1255_h

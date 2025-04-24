@@ -2,7 +2,7 @@
 //  DEF_MACRO.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 4/18/25.
+//  Created by J.C. on 4/18/25.
 //
 
 #ifndef DEF_MACRO_h

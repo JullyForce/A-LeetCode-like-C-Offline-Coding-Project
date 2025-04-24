@@ -2,7 +2,7 @@
 //  LC338.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 4/18/25.
+//  Created by J.C. on 4/18/25.
 //
 
 #ifndef LC338_h

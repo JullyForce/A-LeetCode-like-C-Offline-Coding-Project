@@ -2,7 +2,7 @@
 //  LC834.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 9/7/24.
+//  Created by J.C. on 9/7/24.
 //
 
 #ifndef LC834_h

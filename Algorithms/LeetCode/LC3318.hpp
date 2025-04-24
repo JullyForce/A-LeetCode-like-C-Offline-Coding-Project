@@ -2,7 +2,7 @@
 //  LC3318.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 10/13/24.
+//  Created by J.C. on 10/13/24.
 //
 
 #ifndef LC3318_h

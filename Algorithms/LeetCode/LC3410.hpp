@@ -2,7 +2,7 @@
 //  LC3410.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 2/22/25.
+//  Created by J.C. on 2/22/25.
 //
 
 #ifndef LC3410_h
@@ -207,8 +207,8 @@ namespace LC3410 {
 //};
 
 template<class NodeType>
-using SegTree = SegmentTree::SegTree_Efficient<NodeType>;
-//using SegTree = SegmentTree::SegTree_Hierarchical<NodeType>;
+//using SegTree = SegmentTree::SegTree_Efficient<NodeType>;
+using SegTree = SegmentTree::SegTree_Hierarchical<NodeType>;
 
 class Solution {
 public:

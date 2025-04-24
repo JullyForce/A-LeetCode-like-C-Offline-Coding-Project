@@ -2,7 +2,7 @@
 //  LC3363.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 11/23/24.
+//  Created by J.C. on 11/23/24.
 //
 
 #ifndef LC3363_h

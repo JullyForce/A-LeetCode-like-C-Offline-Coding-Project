@@ -2,7 +2,7 @@
 //  LC857.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 9/13/24.
+//  Created by J.C. on 9/13/24.
 //
 
 #ifndef LC857_h

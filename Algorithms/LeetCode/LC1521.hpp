@@ -2,7 +2,7 @@
 //  LC1521.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 6/1/24.
+//  Created by J.C. on 6/1/24.
 //
 
 #ifndef LC1521_h

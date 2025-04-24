@@ -2,7 +2,7 @@
 //  VisualizeDecoding.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 4/22/25.
+//  Created by J.C. on 4/22/25.
 //
 
 #ifndef VisualizeDecoding_h

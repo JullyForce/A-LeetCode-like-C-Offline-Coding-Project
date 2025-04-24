@@ -2,7 +2,7 @@
 //  LC3213.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 7/18/24.
+//  Created by J.C. on 7/18/24.
 //
 
 #ifndef LC3213_h

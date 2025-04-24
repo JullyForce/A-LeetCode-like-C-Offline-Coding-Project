@@ -2,7 +2,7 @@
 //  CyclicShift.cpp
 //  Algorithms
 //
-//  Created by Jun Chen on 4/23/25.
+//  Created by J.C. on 4/23/25.
 //
 
 #include <cassert>

@@ -2,7 +2,7 @@
 //  LC85.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 8/27/24.
+//  Created by J.C. on 8/27/24.
 //
 
 #ifndef LC85_h

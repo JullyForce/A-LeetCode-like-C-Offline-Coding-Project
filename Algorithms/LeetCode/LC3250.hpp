@@ -2,7 +2,7 @@
 //  LC0000.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 8/10/24.
+//  Created by J.C. on 8/10/24.
 //
 
 #ifndef LC0000_h

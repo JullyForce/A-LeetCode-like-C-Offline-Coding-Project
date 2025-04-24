@@ -2,7 +2,7 @@
 //  CyclicShift.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 4/23/25.
+//  Created by J.C. on 4/23/25.
 //
 
 #ifndef CyclicShift_h

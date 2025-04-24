@@ -2,7 +2,7 @@
 //  LC1404.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 9/26/24.
+//  Created by J.C. on 9/26/24.
 //
 
 #ifndef LC1404_h

@@ -2,7 +2,7 @@
 //  TestExecutor.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 6/12/24.
+//  Created by J.C. on 6/12/24.
 //
 
 #ifndef TestExecutor_h
@@ -124,16 +124,9 @@ int ExecuteTest(const std::function<Ret(Args...)>& testFcn, const std::string& f
     return 0;
 }
 
-// Utility function to create lambda from member function and instance, preserving references in parameter types
-//template <typename R, typename C, typename... Args>
-//auto createLambda(R (C::*method)(Args...), C* instance) -> std::function<R(typename std::decay<Args>::type...)> {
-//    return [instance, method](typename std::decay<Args>::type... args) -> R {
-//        return (instance->*method)(std::forward<Args>(args)...);
-//    };
-//}
 // Utility function to create lambda from member function and instance
 //template <typename R, typename C, typename... Args>
-//std::function<R (typename std::decay<Args>::type...)> createLambda(R (C::*method)(Args...), C* instance) {
+//auto createLambda(R (C::*method)(Args...), C* instance) -> std::function<R(typename std::decay<Args>::type...)> {
 //    return [instance, method](typename std::decay<Args>::type... args) -> R {
 //        return (instance->*method)(std::forward<Args>(args)...);
 //    };
@@ -187,6 +180,15 @@ auto testWrapper = createLambda(LC##NO::Solution::testEntry, &sol);         \
 GP_##TITLE::Solution sol;                                                   \
 auto testWrapper = createLambda(GP_##TITLE::Solution::testEntry, &sol);     \
 (void) ExecuteTest(testWrapper, "./Resources/GP_"  #TITLE  ".txt");         \
+}
+
+// Swiss gear one-for-everything MACRO
+#define RUNTEST(TEST_ID)                                                    \
+                                                                            \
+{                                                                           \
+TEST_ID::Solution sol;                                                      \
+auto testWrapper = createLambda(TEST_ID::Solution::testEntry, &sol);        \
+(void) ExecuteTest(testWrapper, "./Resources/"  #TEST_ID  ".txt");          \
 }
 
 

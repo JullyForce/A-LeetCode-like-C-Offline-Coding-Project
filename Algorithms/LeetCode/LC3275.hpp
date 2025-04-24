@@ -2,7 +2,7 @@
 //  LC3275.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 8/31/24.
+//  Created by J.C. on 8/31/24.
 //
 
 #ifndef LC3275_h

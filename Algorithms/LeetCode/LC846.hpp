@@ -2,7 +2,7 @@
 //  LC846.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 9/29/24.
+//  Created by J.C. on 9/29/24.
 //
 
 #ifndef LC846_h

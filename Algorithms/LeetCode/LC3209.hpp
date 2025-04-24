@@ -2,7 +2,7 @@
 //  LC3209.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 7/8/24.
+//  Created by J.C. on 7/8/24.
 //
 
 #ifndef LC3209_h

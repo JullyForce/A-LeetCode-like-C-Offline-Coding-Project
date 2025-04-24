@@ -2,7 +2,7 @@
 //  LC165.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 9/9/24.
+//  Created by J.C. on 9/9/24.
 //
 
 #ifndef LC165_h

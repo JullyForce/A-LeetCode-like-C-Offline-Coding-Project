@@ -2,7 +2,7 @@
 //  LC514.hpp
 //  Algorithms
 //
-//  Created by Jun Chen on 9/5/24.
+//  Created by J.C. on 9/5/24.
 //
 
 #ifndef LC514_h
